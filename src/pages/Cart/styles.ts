@@ -23,8 +23,6 @@ export const CartTable = styled.table`
 	}
 
 	td {
-		text-align: left;
-		padding: 0.75rem;
 		color: var(--text);
 		border-bottom: 1px solid var(--border);
 
@@ -53,6 +51,7 @@ export const CartTable = styled.table`
 
 			button {
 				background-color: transparent;
+				font-size: 0px;
 
 				&:hover {
 					svg {
@@ -72,12 +71,13 @@ export const CartTable = styled.table`
 			border-radius: 0.3rem;
 			border: 1px solid var(--border);
 			margin: 0 1rem;
-			padding: 0.5rem 0;
+			padding: 0.5rem;
 			text-align: center;
 		}
 
 		> button {
 			background-color: transparent;
+			font-size: 0px;
 
 			&:hover {
 					svg {

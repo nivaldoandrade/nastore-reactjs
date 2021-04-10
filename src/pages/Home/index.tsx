@@ -46,7 +46,7 @@ export function Home() {
 	const cartItemsAmount = cart.reduce((sumAmount, product) => {
 		return {
 			...sumAmount,
-			[product.id]: product.mount
+			[product.id]: product.amount
 		}
 	}, {} as CartItemsAmount);
 
@@ -64,7 +64,7 @@ export function Home() {
 						>
 							<div>
 								<FiShoppingCart size={24} />
-								{cartItemsAmount[product.id]}
+								{cartItemsAmount[product.id] ?? '0'}
 							</div>
 							<span>ADICIONAR AO CARRINHO</span>
 						</button>
