@@ -2,7 +2,7 @@
 
 <p align="center"><img src="https://github.com/nivaldoandrade/nastore-reactjs/blob/main/assestsREADME/nastore.gif" /></p>
 
-O nastore é um simples loja com listagem de produtos com a possibilidade de adicionar produto ao carrinho, e no mesmo incrementar, decrementar ou remover produto.
+O nastore é uma simples loja com listagem de produtos com a possibilidade de adicionar produto ao carrinho, e no mesmo incrementar, decrementar ou remover produto.
 
 ## **Configurações Iniciais**
 
